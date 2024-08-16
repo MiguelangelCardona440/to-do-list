@@ -3,7 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>to do list</title>
+    <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>To Do List</h1>
+
+      <main>
+        <div id="task-input">
+            <input type="text" id="rask" placeholder="Inserta tu ToDo">
+            <button id="task-btn">Agregar</button>
+        </div>
+
+        <ul id="tasks-container">
+            <li class="task-container">
+                <div class="task">
+                    <p class="task-description">Descripcion del To-Do</p>
+
+                    <div class="task-control">
+                        <button class="edit-btn">
+                            <i class= i class="fa-solid fa-pen-to-square"></i>"></i>
+                        </button>
+                        <button class="delete-btn"><i class="fa-solid fa-delete-right"></i></button>
+
+                    </div>
+
+                </div>
+
+            </li>
+
+        </ul>
+      </main>
+    </header>
+  </body>
 </html>
